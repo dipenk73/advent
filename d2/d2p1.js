@@ -23,7 +23,7 @@ for (let index = length - 1; index > -1; index--) {
   }
 
   const counts = Object.values(obj);
- console.log(obj);
+ //console.log(obj);
   if (counts.includes(2)) twos++;
   if (counts.includes(3)) threes++;
 }
